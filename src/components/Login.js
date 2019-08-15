@@ -9,10 +9,10 @@ const Login = (props) => (
             className="github" 
             onClick={() => props.authenticate('Github')}
         >GutHub Login</button>
-         <button 
+         {/* <button 
             className="gmail" 
             onClick={() => props.authenticate('Gmail')}
-        >G-mail Login</button> 
+        >G-mail Login</button>  */}
     </nav>
 );
 

@@ -18,6 +18,3 @@ export { firebaseApp };
 
 // this is a default export
 export default base;
-
-https://storeapp-a07b3.firebaseapp.com/__/auth/handler
-
