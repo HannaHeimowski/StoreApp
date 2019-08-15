@@ -7,11 +7,7 @@ import 'firebase/storage';  // If using Firebase storage
 const firebaseApp = firebase.initializeApp({
     apiKey: "AIzaSyA2QxyFxyvcekg3dOP1Dh45EBm734ZIDXQ",
     authDomain: "storeapp-a07b3.firebaseapp.com",
-    databaseURL: "https://storeapp-a07b3.firebaseio.com",
-    projectId: "storeapp-a07b3",
-    storageBucket: "",
-    messagingSenderId: "375029241749",
-    appId: "1:375029241749:web:54e2a4015a676c54"
+    databaseURL: "https://storeapp-a07b3.firebaseio.com"
 });
 
 // create the firebase binding
@@ -22,4 +18,6 @@ export { firebaseApp };
 
 // this is a default export
 export default base;
+
+https://storeapp-a07b3.firebaseapp.com/__/auth/handler
 
