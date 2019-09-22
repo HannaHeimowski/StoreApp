@@ -7,3 +7,4 @@ catch-of-the-day/build/
 .vscode/
 package-lock.json
 security-rules.json
+public/images
