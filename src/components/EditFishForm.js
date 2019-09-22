@@ -43,8 +43,8 @@ class EditFishForm extends React.Component {
                         name="status" 
                         onChange={this.handleChange} 
                         value={this.props.fish.status}>
-                            <option value="available"></option>
-                            <option value="unavailable"></option>
+                            <option value="available">available</option>
+                            <option value="unavailable">unavailable</option>
                     </select>
                     <textarea 
                         name="desc" 
